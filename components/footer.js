@@ -18,20 +18,6 @@ export default function Footer() {
             <div className="mt-6 lg:mb-0 mb-6">
               <a
                 className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
-                href="https://www.lexingtontech.us/"
-                target="_blank"
-                rel="noreferrer"
-                title="Lexington Tech LLC"
-              >
-                <button
-                  className="bg-pink-500 text-slate-900 hover:text-slate-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i class="fa-solid fa-l"></i>
-                </button>
-              </a>
-              <a
-                className="hover:text-slate-300 text-slate-700 px-3 py-4 lg:py-2  items-center text-xs uppercase font-bold"
                 href="https://www.linkedin.com/company/lexingtontech"
                 target="_blank"
                 rel="noreferrer"
@@ -77,11 +63,22 @@ export default function Footer() {
           <div className="w-half lg:w-6/12 px-4">
             <div className="flex flex-wrap items-top mb-6">
               <div className="w-full lg:w-4/12 px-4 ml-auto">
-                <span className="text-1xl block uppercase text-slate-900 font-semibold mb-2">
-                  Lexington Tech LLC
+                <span className="block uppercase text-slate-900 text-sm font-semibold mb-2">
+                  <a
+                    className="hover:text-slate-500"
+                    href="https://www.lexingtontech.us/"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="Lexington Tech LLC"
+                  >
+                    Lexington Tech
+                  </a>
                 </span>
                 <a href="https://app.cosmicjs.com/add-bucket?import_bucket=62b0fd9ea03a790009c7c94c">
-                  <img src="https://web-assets.cosmicjs.com/images/powered-by-cosmic.svg" />
+                  <img
+                    alt="Cosmic"
+                    src="https://web-assets.cosmicjs.com/images/powered-by-cosmic.svg"
+                  />
                 </a>
               </div>
               <div className="w-full lg:w-4/12 px-4">
